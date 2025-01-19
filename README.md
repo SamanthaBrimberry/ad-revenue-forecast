@@ -18,6 +18,6 @@ This project utilizes [Amazon's ChronoBolt](https://huggingface.co/amazon/chrono
 - Access to predictive models using SQL
 
 ## Get Started
-Recommended to use a single-node cluster with multiple GPU instances such as g4dn.12xlarge [T4] on AWS or Standard_NC64as_T4_v3 on Azure.
+Recommended to use a single-node cluster with multiple GPU instances such as g4dn.12xlarge [T4] on AWS or Standard_NC64as_T4_v3 on Azure. To use the same cluster config this project uses, run [create-cluster](./setup/create-cluster.py).
 
 To get started run the [RUNME](./RUNME.py) file!

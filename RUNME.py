@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %run ./widgets
+# MAGIC %run ./setup/widgets
 
 # COMMAND ----------
 
@@ -10,7 +10,7 @@
 
 # COMMAND ----------
 
-# %run ./data-setup
+# MAGIC %run ./setup/data-setup
 
 # COMMAND ----------
 
