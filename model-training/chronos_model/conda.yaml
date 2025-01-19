@@ -1,0 +1,24 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.10.12
+- pip<=22.3.1
+- pip:
+  - mlflow==2.9.2
+  - accelerate==0.34.2
+  - astunparse==1.6.3
+  - boto3==1.24.28
+  - cffi==1.15.1
+  - chronos-forecasting==1.4.1
+  - cloudpickle==2.0.0
+  - configparser==5.2.0
+  - defusedxml==0.7.1
+  - dill==0.3.6
+  - google-cloud-storage==2.11.0
+  - ipython==8.14.0
+  - opt-einsum==3.3.0
+  - pandas==1.5.3
+  - pillow==9.4.0
+  - sentencepiece==0.1.99
+  - transformers==4.36.1
+name: mlflow-env
